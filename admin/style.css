@@ -1,0 +1,106 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial;
+}
+
+.admin-index {
+	text-align: center;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.admin-index form input {
+	padding: .5rem 1rem;
+}
+.admin-index form input[type="submit"] {
+	padding: .5rem 1rem;
+	background: green;
+	color: #fff;
+	cursor: pointer;
+}
+
+header {
+	text-align: center;
+	padding: 2rem 0;
+	background: blue;
+	color: #fff;
+}
+
+section {
+	display: grid;
+	grid-template-columns: 200px 1fr;
+	height: auto;
+	background: #fff;
+}
+
+.info {
+	margin: 2rem;
+	background: #fff;
+}
+
+.adduser input,  
+.adduser textarea,
+.edituser input,
+.edituser textarea {
+	width: 250px;
+	padding: .5rem;
+	margin: .5rem 0;
+}
+.adduser textarea,
+.edituser textarea {
+	height: 150px;
+}
+.adduser input[type="submit"],
+.edituser input[type="submit"] {
+	border: none;
+	cursor: pointer;
+	background: green;
+	color: #fff;
+}
+
+table, td {
+	border: 1px solid #000;
+	border-collapse: collapse;
+}
+td {
+	text-align: center;
+	padding: .5rem	;
+}
+
+nav {
+	height: 100%;
+	background: #2EA5E5;
+}
+ul {
+	list-style: none;
+}
+ul li {
+	padding: 1rem;
+	cursor: pointer;
+	background: #2E79E5;
+	transition: .3s;
+}
+ul li:hover {
+	background: #1C61C4;
+}
+ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+.logout {
+	background: #C41C1C;
+}
+.logout:hover {
+	background: #A81616;
+}
+
+footer {
+	text-align: center;
+	padding: 1rem;
+	background: #333;
+	color: #fff;
+}
